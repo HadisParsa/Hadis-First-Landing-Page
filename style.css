@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ sans-serif;
+}
+
+header {
+position: fixed;
+top:0;
+left:0;
+right: 0;
+padding: 20px;
+background-color: #fad0d0;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 35px;
+  color: #faf7e0;
+}
+
+header ul {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: #f88111;
+  text-decoration: none;
+}
+
+main{
+
+  display: block;
+}
+h1{
+ 
+  text-align: center;
+}
+body {
+  position: relative;
+  background-color: rgb(231, 248, 255);
+  font-size: 18px; color: rgb(0, 78, 78);
+  padding: 50px;
+}
+main p{
+  padding: 20px;
+
+}
+section
+{
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 2px solid cadetblue;
+  background-color: rgb(255 255 255);;
+}
+
+li{
+ display:block ;
+ margin: 10px;
+ font-size: 12px bold;
+}
+#image{
+  margin-top: 200px;
+  display: block;
+  padding: 10px;
+  border: 20px;
+  margin: 30px;
+}
+.contact {
+  background-color: rgb(249, 250, 221);
+  border: 5px solid rgb(202, 247, 236);
+  padding: 10px;
+  text-align: center;
+}
+footer{
+  border-top:groove 2px rgb(117, 140, 165);
+  color:gray ;
+  text-align: center;
+}
